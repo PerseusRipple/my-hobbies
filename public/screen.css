@@ -34,6 +34,27 @@ a {
 	display: inline;
 	text-decoration: none;
 	color: purple;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	margin-right: 1rem;
+}
+
+nav a :hover {
+	color: orange;
+}
+
+nav a:visited {
+	color: white;
+}
+
+/* Figure*/
+
+.duck-image {
+	width: 75%;
+	padding: 1rem;
+}
+
+.image-header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1rem;
 }
